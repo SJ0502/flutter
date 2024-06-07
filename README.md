@@ -8,7 +8,19 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: #여기가 코드 입력하는 부분
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('집간다'),
+        ),
+        body: Center(
+          child: Column(
+            children: <Widget>[
+              Text('5분남음'),
+              Text('4분남음')
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
